@@ -1,0 +1,214 @@
+<!-- Bootstrap v3.0.3 -->
+<link href="https://s3.amazonaws.com/mturk-public/bs30/css/bootstrap.min.css" rel="stylesheet" />
+<section class="container" id="ModerationOfAnImage" style="margin-bottom: 15px; padding: 10px;">
+<div class="row col-xs-12 col-md-12"><!-- Instructions -->
+<div class="panel panel-primary">
+<div class="panel-heading" style="color: rgb(51, 51, 51); font-family: Verdana, Geneva, sans-serif; font-size: 1.5em;"><span style="font-family:georgia,serif;"><b><span style="font-family:times new roman,times,serif;">INSTRUCTIONS</span></b></span></div>
+
+<div>
+<p style="color: rgb(51, 51, 51); font-family: Verdana, Geneva, sans-serif;"><span style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;">&nbsp; </span></p>
+
+<p style="color: rgb(51, 51, 51); font-family: Verdana, Geneva, sans-serif;"><span style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;">&nbsp; Imagine where an <span style="color:#B22222;"><strong>object</strong></span> may be located relative to a <span style="color:#0000CD;"><strong>reference</strong></span>, and select the possible locations.</span><span style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;">&nbsp;</span></p>
+
+<ol>
+	<li style="color: rgb(51, 51, 51);"><span style="font-family:times new roman,times,serif;"><span style="font-size: 16px;">You will be given the names of an everyday <span style="color:#B22222;"><strong>object</strong></span> and a <span style="color:#0000CD;"><strong>reference</strong></span>.</span></span></li>
+	<li style="color: rgb(51, 51, 51);"><span style="font-family:times new roman,times,serif;"><span style="font-size: 16px;"><span style="font-size: 12pt;">Below&nbsp;are a series of images depicting possible spatial relations between the&nbsp;</span></span><span style="font-size: 16px; line-height: 20.7999992370605px; color: rgb(178, 34, 34);"><strong>object</strong></span><span style="font-size: 16px; line-height: 20.7999992370605px;">&nbsp;and the&nbsp;</span><span style="font-size: 16px; line-height: 20.7999992370605px; color: rgb(0, 0, 205);"><strong>reference</strong></span><span style="font-size: 16px;"><span style="font-size: 12pt;">. Think about which of these relations the&nbsp;</span></span><span style="font-size: 16px; line-height: 20.7999992370605px; color: rgb(178, 34, 34);"><strong>object</strong></span><span style="font-size: 16px; line-height: 20.7999992370605px;">&nbsp;and the&nbsp;</span><span style="font-size: 16px; line-height: 20.7999992370605px; color: rgb(0, 0, 205);"><strong>reference&nbsp;</strong></span></span><span style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;">might be in, and check all such relations.&nbsp;</span></li>
+</ol>
+
+<p style="font-family: Verdana, Geneva, sans-serif;"><span style="font-family: 'times new roman', times, serif;"><span style="color: rgb(51, 51, 51); font-size: 15.6000003814697px; line-height: 20.7999992370605px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><u style="color: rgb(51, 51, 51); font-family: georgia, serif; font-size: 15.6000003814697px; line-height: 20.7999992370605px;"><em>Assignment:</em></u><em style="color: rgb(51, 51, 51);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</em><strong style="line-height: 1.6em;"><span style="font-size: 15.6000003814697px; line-height: 20.7999992370605px;"><span style="color: rgb(178, 34, 34);">${word1}</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font color="#0000cd">${word2}</font></span></strong></span></p>
+
+<p style="color: rgb(51, 51, 51); font-family: Verdana, Geneva, sans-serif; text-align: center;"><span style="font-family:times new roman,times,serif;"><span style="font-size: 15.6000003814697px; line-height: 20.7999992370605px;">Ask yourself: &quot;Where might <span style="color:#B22222;"><strong>${word1}</strong></span> be located relative to <span style="color:#0000CD;"><strong>${word2}</strong></span>?&quot;</span></span></p>
+
+<p style="color: rgb(51, 51, 51); font-family: Verdana, Geneva, sans-serif;"><span style="font-family:times new roman,times,serif;"><strong><u><em style="font-family: georgia, serif; font-size: 16px; line-height: 20.7999992370605px;">​Image Key:</em></u></strong></span></p>
+
+<p style="color: rgb(51, 51, 51); font-family: Verdana, Geneva, sans-serif;"><span style="font-family:times new roman,times,serif;"><span style="color:#A9A9A9;">This key explains our visual notation.</span></span></p>
+
+<table align="center" border="1">
+	<tbody>
+		<tr>
+			<td width="20%">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img alt="proto" src="http://i.imgur.com/0LLyGUA.gif" style="width: 80px; height: 80px;" /></td>
+			<td width="20%">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img alt="behind" src="http://i.imgur.com/zHfAgad.gif" style="height: 80px; width: 80px;" /></td>
+			<td width="20%">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img alt="inside" src="http://i.imgur.com/BIST6wX.gif" style="height: 80px; width: 80px;" /></td>
+			<td width="20%">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img alt="hole" src="http://i.imgur.com/PjnytaI.gif" style="height: 80px; width: 80px;" /></td>
+			<td width="20%">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img alt="ground" src="http://i.imgur.com/qDcXlLV.gif" style="height: 80px; width: 80px;" /></td>
+		</tr>
+		<tr>
+			<td>
+			<p><span style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;">The red object represents <font color="#b22222"><b>${word1}</b></font>. </span></p>
+
+			<p><span style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;">The blue object represents <font color="#0000cd"><b>${word2}</b></font>.&nbsp;</span></p>
+			</td>
+			<td>
+			<p style="text-align: center;"><span style="font-family:times new roman,times,serif;"><strong>DOTTED =&nbsp;BEHIND</strong></span></p>
+
+			<p><span style="font-family:times new roman,times,serif;"><span style="font-size: 12pt; line-height: 1.6em; background-color: transparent;">Dotted parts of the object&nbsp;are behind the reference object.</span></span></p>
+			</td>
+			<td>
+			<p style="text-align: center;"><span style="font-family:times new roman,times,serif;"><strong>FADED = INSIDE</strong></span></p>
+
+			<p><span style="font-family:times new roman,times,serif;"><span style="font-size: 12pt;">Faded parts&nbsp;of the object&nbsp;are&nbsp;inside of the reference object.&nbsp;</span></span></p>
+			</td>
+			<td>
+			<p style="text-align: center;"><strong style="font-family: 'times new roman', times, serif; line-height: 1.6em; background-color: transparent;">OUTLINE = HOLE</strong></p>
+
+			<p><span style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px; background-color: transparent;">A red outline represents a hole in the reference object.</span></p>
+			</td>
+			<td>
+			<p style="text-align: center;"><span style="font-family:times new roman,times,serif;"><strong>&nbsp;GRAY = GROUND</strong></span></p>
+
+			<p style="text-align: center;"><span style="font-family:times new roman,times,serif;"><span style="font-size: 12pt;">Gray lines represent the ground, relative to the object and the reference. &nbsp;&nbsp;</span>​</span></p>
+
+			<p style="text-align: center;"><span style="font-family: 'times new roman', times, serif; font-size: 12pt; line-height: 1.6em; background-color: transparent;">(This is just an aid to help you visualize the image.)</span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="color: rgb(51, 51, 51); font-family: Verdana, Geneva, sans-serif;">&nbsp;</p>
+</div>
+</div>
+<!-- End Instructions -->
+
+<h3 style="color: rgb(51, 51, 51); font-family: Verdana, Geneva, sans-serif; text-align: center;">&nbsp;</h3>
+
+<h3 style="color: rgb(51, 51, 51); font-family: Verdana, Geneva, sans-serif; text-align: center;"><span style="font-family:times new roman,times,serif;">Now, where might <span style="color:#B22222;"><strong>${word1}</strong></span> be located relative to <span style="color:#0000CD;"><strong>${word2}</strong></span>?</span></h3>
+
+<h5 style="color: rgb(51, 51, 51); font-family: Verdana, Geneva, sans-serif; text-align: center;"><span style="font-family:times new roman,times,serif;"><span style="color:#808080;">Please check all of the relevant relations. (Note:&nbsp;all images are shown from the side, not from above.)</span></span></h5>
+
+<center style="color: rgb(51, 51, 51); font-family: Verdana, Geneva, sans-serif;">&nbsp;</center>
+
+<center style="color: rgb(51, 51, 51); font-family: Verdana, Geneva, sans-serif;">&nbsp;</center>
+</div>
+
+<table align="center" border="1" style="color:rgb(51, 51, 51);font-family:verdana,geneva,sans-serif;font-size:1.2em;" vspace="30">
+	<tbody>
+		<tr>
+			<td><label for="image1"><img alt="image1" src="http://i.imgur.com/0LLyGUA.gif" style="width: 130px; height: 130px;" /></label>
+
+			<center><input id="checkbox1" name="selected" type="checkbox" value="image1" /></center>
+			</td>
+			<td>
+			<center><label for="image2"><img alt="image2" src="http://i.imgur.com/QkwoeAB.gif" style="height: 130px; width: 130px;" /> </label></center>
+
+			<center><input id="checkbox2" name="selected" type="checkbox" value="image2" /></center>
+			</td>
+			<td><label for="image3"><img alt="image3" src="http://i.imgur.com/Mg7LX2V.gif" style="height: 130px; width: 130px;" /> </label>
+			<center><input id="checkbox3" name="selected" type="checkbox" value="image3" /></center>
+			</td>
+			<td><label for="image4"><img alt="image4" src="http://i.imgur.com/AsEDdv1.gif" style="height: 130px; width: 130px;" /> </label>
+			<center><input id="checkbox4" name="selected" type="checkbox" value="image4" /></center>
+			</td>
+			<td><label for="image5"><img alt="image5" src="http://i.imgur.com/68IPTC9.gif" style="height: 130px; width: 130px;" /> </label>
+			<center><input id="checkbox5" name="selected" type="checkbox" value="image5" /></center>
+			</td>
+		</tr>
+		<tr>
+			<td><label for="image6"><img alt="image6" src="http://i.imgur.com/9S8BPBo.gif" style="height: 130px; width: 130px;" /> </label>
+			<center><input id="checkbox6" name="selected" type="checkbox" value="image6" /></center>
+			</td>
+			<td><label for="image7"><img alt="image7" src="http://i.imgur.com/d9BjSCE.gif" style="height: 130px; width: 130px;" /> </label>
+			<center><input id="checkbox7" name="selected" type="checkbox" value="image7" /></center>
+			</td>
+			<td><label for="image8"><img alt="image8" src="http://i.imgur.com/O5ugfTC.gif" style="height: 130px; width: 130px;" /> </label>
+			<center><input id="checkbox8" name="selected" type="checkbox" value="image8" /></center>
+			</td>
+			<td><label for="image9"><img alt="image9" src="http://i.imgur.com/Ua2l9fz.gif" style="height: 130px; width: 130px;" /></label>
+			<center><input id="checkbox9" name="selected" type="checkbox" value="image9" /></center>
+			</td>
+			<td>
+			<center><label for="image10"><img alt="image10" src="http://i.imgur.com/0GEJv4z.gif" style="height: 130px; width: 130px;" /> </label></center>
+
+			<center><input id="checkbox10" name="selected" type="checkbox" value="image10" /></center>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table align="center" border="1" style="color:rgb(51, 51, 51);font-family:verdana,geneva,sans-serif;font-size:1.2em;" vspace="3">
+	<tbody>
+		<tr>
+			<td><label for="image11"><img alt="image11" src="http://i.imgur.com/zHfAgad.gif" style="height: 130px; width: 130px;" /> </label>
+
+			<center><input id="checkbox11" name="selected" type="checkbox" value="image11" /></center>
+			</td>
+			<td><label for="image12"><img alt="image12" src="http://i.imgur.com/BIST6wX.gif" style="height: 130px; width: 130px;" /> </label>
+			<center><input id="checkbox12" name="selected" type="checkbox" value="image12" /></center>
+			</td>
+			<td><label for="image13"><img alt="image13" src="http://i.imgur.com/GJiKhak.gif" style="height: 130px; width: 130px;" /> </label>
+			<center><input id="checkbox13" name="selected" type="checkbox" value="image13" /></center>
+			</td>
+			<td><label for="image14"><img alt="image14" src="http://i.imgur.com/pOsETsZ.gif" style="height: 130px; width: 130px;" /> </label>
+			<center><input id="checkbox14" name="selected" type="checkbox" value="image14" /></center>
+			</td>
+			<td><label for="image15"><img alt="image15" src="http://i.imgur.com/PjnytaI.gif" style="height: 130px; width: 130px;" /> </label>
+			<center><input id="checkbox15" name="selected" type="checkbox" value="image15" /></center>
+			</td>
+		</tr>
+		<tr>
+			<td><label for="image16"><img alt="image16" src="http://i.imgur.com/RJuUko1.gif" style="height: 130px; width: 130px;" /> </label>
+			<center><input id="checkbox16" name="selected" type="checkbox" value="image16" /></center>
+			</td>
+			<td><label for="image17"><img alt="image17" src="http://i.imgur.com/qDcXlLV.gif" style="height: 130px; width: 130px;" /></label>
+			<center><input id="checkbox17" name="selected" type="checkbox" value="image17" /></center>
+			</td>
+			<td>
+			<center><label for="image18"><img alt="image18" src="http://i.imgur.com/1NLQcd9.gif" style="height: 130px; width: 130px;" /> </label></center>
+
+			<center><input id="checkbox18" name="selected" type="checkbox" value="image18" /></center>
+			</td>
+			<td><label for="image19"><img alt="image19" src="http://i.imgur.com/qbaDLNH.gif" style="height: 130px; width: 130px;" /> </label>
+			<center><input id="checkbox19" name="selected" type="checkbox" value="image19" /></center>
+			</td>
+			<td><label for="image20"><img alt="image20" src="http://i.imgur.com/oBIttPC.gif" style="height: 130px; width: 130px;" /> </label>
+			<center><input id="checkbox20" name="selected" type="checkbox" value="image20" /></center>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table align="center" border="1" style="color:rgb(51, 51, 51);font-family:verdana,geneva,sans-serif;font-size:1.2em;" vspace="30">
+	<tbody>
+		<tr>
+			<td><label for="image21"><img alt="image21" src="http://i.imgur.com/dM5lti8.gif" style="height: 130px; width: 130px;" /> </label>
+
+			<center><input id="checkbox21" name="selected" type="checkbox" value="image21" /></center>
+			</td>
+			<td><label for="image22"><img alt="image22" src="http://i.imgur.com/NMnRghK.gif" style="height: 130px; width: 130px;" /> </label>
+			<center><input id="checkbox22" name="selected" type="checkbox" value="image22" /></center>
+			</td>
+			<td><label for="image23"><img alt="image23" src="http://i.imgur.com/dwHRxyU.gif" style="height: 130px; width: 130px;" /> </label>
+			<center><input id="checkbox23" name="selected" type="checkbox" value="image23" /></center>
+			</td>
+			<td><label for="image24"><img alt="image24" src="http://i.imgur.com/hBJsq1b.gif" style="height: 130px; width: 130px;" /> </label>
+			<center><input id="checkbox24" name="selected" type="checkbox" value="image24" /></center>
+			</td>
+			<td><label for="image25"><img alt="image25" src="http://i.imgur.com/o4TsBcx.gif" style="height: 130px; width: 130px;" /></label>
+			<center><input id="checkbox25" name="selected" type="checkbox" value="image25" /></center>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<center><label for="image26"><img alt="image26" src="http://i.imgur.com/uLng84W.gif" style="height: 130px; width: 130px;" /> </label></center>
+
+			<center><input id="checkbox26" name="selected" type="checkbox" value="image26" /></center>
+			</td>
+			<td><label for="image27"><img alt="image28" src="http://i.imgur.com/kfqHbQS.gif" style="height: 130px; width: 130px;" /> </label>
+			<center><input id="checkbox27" name="selected" type="checkbox" value="image27" /></center>
+			</td>
+			<td><label for="image28"><img alt="image29" src="http://i.imgur.com/2O5qXUp.gif" style="height: 130px; width: 130px;" /> </label>
+			<center><input id="checkbox28" name="selected" type="checkbox" value="image28" />​</center>
+			</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="color: rgb(51, 51, 51); font-family: Verdana, Geneva, sans-serif; font-size: 1.1em;">&nbsp;</p>
+
+<p style="color: rgb(51, 51, 51); font-family: Verdana, Geneva, sans-serif; font-size: 1.1em;">&nbsp;</p>
+</section>
+<!-- close container -->
+<style type="text/css">img { width:180px; height:auto; } label { border-radius:2px; border: 2px solid white; display: block; } label:hover { border: 2px solid #333333; background: #ffffff; opacity:0.9; cursor: pointer; }
+</style>
+<!-- close internal style sheet -->
