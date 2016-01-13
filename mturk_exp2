@@ -1,0 +1,128 @@
+<!-- Bootstrap v3.0.3 -->
+<link href="https://s3.amazonaws.com/mturk-public/bs30/css/bootstrap.min.css" rel="stylesheet" />
+<section class="container" id="ModerationOfAnImage" style="margin-bottom: 15px; padding: 10px;">
+<div class="row col-xs-12 col-md-12"><!-- Instructions -->
+<div class="panel panel-primary">
+<div class="panel-heading" style="color: rgb(51, 51, 51); font-family: Verdana, Geneva, sans-serif; font-size: 1.5em;"><span style="font-family:georgia,serif;"><b><span style="font-family:times new roman,times,serif;">INSTRUCTIONS</span></b></span></div>
+
+<div>
+<p style="color: rgb(51, 51, 51); font-family: Verdana, Geneva, sans-serif;"><span style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;">&nbsp;</span></p>
+
+<p style="color: rgb(51, 51, 51); font-family: Verdana, Geneva, sans-serif;"><span style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;">&nbsp; &nbsp;Throughout this experiment, please focus on the spatial relationship between the </span><strong style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;"><span style="color:#FFA500;">orange figure object&nbsp;</span></strong><span style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;">and the </span><strong style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;">black background object</strong><span style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;">.</span></p>
+
+<p style="color: rgb(51, 51, 51); font-family: Verdana, Geneva, sans-serif;">&nbsp;</p>
+
+<ol style="font-size: 14px; line-height: 20px;">
+	<li style="margin-left: 15px;"><span style="font-family: 'times new roman', times, serif;"><span style="font-size: 16px;"><span style="font-size: 12pt;"><u>Imagine</u>: as you consider the set of scenes given below, imagine someone is talking to you and mentions&nbsp;</span></span></span><strong style="color: rgb(255, 165, 0); font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;">${word1}</strong><span style="font-family: 'times new roman', times, serif;"><span style="font-size: 16px;"><span style="font-size: 12pt;">&nbsp;and&nbsp;</span></span></span><strong style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;">${word2}</strong><span style="font-family: 'times new roman', times, serif;"><span style="font-size: 16px;"><span style="font-size: 12pt;">. Think about where you&#39;d usually expect these objects to be located relative to each other. What spatial relation would you expect&nbsp;</span></span></span><strong style="color: rgb(255, 165, 0); font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;">${word1}</strong><span style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;">&nbsp;and&nbsp;</span><strong style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;">${word2}&nbsp;</strong><span style="font-family: 'times new roman', times, serif;"><span style="font-size: 16px;"><span style="font-size: 12pt;">to be in?</span></span></span></li>
+	<li style="margin-left: 15px;"><span style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;"><u>Bet</u>: estimate the probability that&nbsp;</span><strong style="color: rgb(255, 165, 0); font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;">${word1}</strong><span style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;"><span style="line-height: 20.7999992370605px;">&nbsp;and&nbsp;</span></span><strong style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;">${word2}</strong><span style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;">&nbsp;are in each of the following spatial relations as a percent, and write it in the box below the&nbsp;corresponding scenes (make sure that your responses add up to 100).&nbsp;</span></li>
+</ol>
+
+<p style="font-family: Verdana, Geneva, sans-serif;"><span style="font-family: 'times new roman', times, serif;"><span style="color: rgb(51, 51, 51); font-size: 15.6000003814697px; line-height: 20.7999992370605px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><u style="color: rgb(51, 51, 51); font-family: georgia, serif; font-size: 15.6000003814697px; line-height: 20.7999992370605px;"><em>Assignment:</em></u><em style="color: rgb(51, 51, 51);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</em><strong style="line-height: 1.6em;"><span style="font-size: 15.6000003814697px; line-height: 20.7999992370605px;"><span style="color:#FFA500;">${word1}&nbsp;</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ${word2}</span></strong></span></p>
+
+<p style="color: rgb(51, 51, 51); font-family: Verdana, Geneva, sans-serif; text-align: center;"><span style="font-family:times new roman,times,serif;"><span style="font-size: 15.6000003814697px; line-height: 20.7999992370605px;">Ask yourself: &quot;Where might <span style="color:#FFA500;"><strong>${word1}</strong></span> be located relative to <strong>${word2}</strong>?&quot;</span></span><span style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;">&nbsp;</span></p>
+
+<p style="color: rgb(51, 51, 51); font-family: Verdana, Geneva, sans-serif;"><strong><span style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;">&nbsp; &nbsp;</span></strong><u><strong><span style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;">KEY:</span></strong></u></p>
+</div>
+
+<table align="center" border="1" style="color: rgb(51, 51, 51); font-size: 1.2em; width: 300px;" vspace="30">
+	<tbody>
+		<tr>
+			<td style="text-align: center;"><span style="font-family:times new roman,times,serif;"><img src="http://i.imgur.com/HelQECh.gif" style="height: 200px; width: 200px;" /></span></td>
+			<td style="text-align: center;"><span style="font-family:times new roman,times,serif;"><img src="http://i.imgur.com/8h3hJk8.gif" style="height: 200px; width: 200px;" /></span></td>
+		</tr>
+		<tr>
+			<td><span style="font-family:times new roman,times,serif;">A shadow signifies that the object is above the other object.</span></td>
+			<td><span style="font-family:times new roman,times,serif;">The lighter orange signifies that this portion of the object is hidden from view.</span></td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="color: rgb(51, 51, 51); font-family: Verdana, Geneva, sans-serif;">&nbsp;</p>
+</div>
+</div>
+
+<p>&nbsp;</p>
+
+<h3 style="font-family: Verdana, Geneva, sans-serif; color: rgb(51, 51, 51); text-align: center;">&nbsp;</h3>
+
+<h3 style="font-family: Verdana, Geneva, sans-serif; color: rgb(51, 51, 51); text-align: center;"><span style="font-family: 'times new roman', times, serif;">Now, where might&nbsp;<span style="color: rgb(255, 165, 0);"><strong>${word1}</strong></span>&nbsp;be located relative to&nbsp;<strong>${word2}</strong>?</span></h3>
+
+<h5 style="font-family: Verdana, Geneva, sans-serif; color: rgb(51, 51, 51); text-align: center;"><span style="font-family:times new roman,times,serif;">Please make sure your bets add up to 100!</span></h5>
+
+<h5 style="font-family: Verdana, Geneva, sans-serif; color: rgb(51, 51, 51); text-align: center;"><span style="font-family: 'times new roman', times, serif;"><span style="color: rgb(128, 128, 128);">(Note 1:&nbsp;all images are shown from the side, not from above</span></span></h5>
+
+<h5 style="font-family: Verdana, Geneva, sans-serif; color: rgb(51, 51, 51); text-align: center;"><span style="font-family: 'times new roman', times, serif;"><span style="color: rgb(128, 128, 128);">Note 2: if there is no image, do not place a bet there)</span></span></h5>
+
+<p><span style="font-family: 'times new roman', times, serif;"><span style="color: rgb(128, 128, 128);">​</span></span></p>
+
+<table align="center" border="1" style="color:rgb(51, 51, 51);font-family:verdana,geneva,sans-serif;font-size:1.2em;" vspace="30">
+	<tbody>
+		<tr>
+			<td>
+			<p style="text-align: center;"><label for="image1"><img alt="image1" src="${image_url_1}" style="width: 250px; height: 250px;" />​</label></p>
+
+			<center style="text-align: center;"><input id="text1" name="text1" type="text" /></center>
+			</td>
+			<td>
+			<p style="text-align: center;"><label for="image2"><img alt="image2" src="${image_url_2}" style="height: 250px; width: 250px;" /> </label></p>
+
+			<center style="text-align: center;"><input id="text2" name="text2" type="text" /></center>
+			</td>
+			<td>
+			<p style="text-align: center;"><label for="image3"><img alt="image3" src="${image_url_3}" style="height: 250px; width: 250px;" /></label></p>
+
+			<center style="text-align: center;"><input id="text3" name="text3" type="text" /></center>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p style="text-align: center;"><label for="image4"><img alt="image4" src="${image_url_4}" style="height: 250px; width: 250px;" /></label></p>
+
+			<center style="text-align: center;"><input id="text4" name="text4" type="text" /></center>
+			</td>
+			<td>
+			<p style="text-align: center;"><label for="image5"><img alt="image5" src="${image_url_5}" style="height: 250px; width: 250px;" /></label></p>
+
+			<center style="text-align: center;"><input id="text5" name="text5" type="text" /></center>
+			</td>
+			<td>
+			<p style="text-align: center;"><label for="image6"><img alt="image6" src="${image_url_6}" style="height: 250px; width: 250px;" /></label></p>
+
+			<center style="text-align: center;"><input id="text6" name="text6" type="text" /></center>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+			<p style="text-align: center;"><u style="font-size: 1.2em; line-height: 1.6em; background-color: transparent;"><strong><span style="font-family:times new roman,times,serif;">Other:</span></strong></u></p>
+
+			<p style="text-align: center;"><span style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;">If you expect that&nbsp;</span><strong style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;"><span style="color: rgb(255, 165, 0);">${word1}</span></strong><span style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;">&nbsp;is located somewhere else relative to&nbsp;</span><strong style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;">${word2}</strong><span style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;">, </span></p>
+
+			<p style="text-align: center;"><span style="font-family: 'times new roman', times, serif; font-size: 16px; line-height: 20.7999992370605px;">then please describe what the scene should look like below.</span></p>
+
+			<p><span style="font-family:times new roman,times,serif;">Place bet here:</span></p>
+
+			<center style="text-align: left;"><span style="font-family:times new roman,times,serif;"><input id="text7" name="text7" type="text" /></span></center>
+
+			<center style="text-align: left;">&nbsp;</center>
+
+			<p><span style="font-family:times new roman,times,serif;">Write description here:</span></p>
+
+			<center style="text-align: left;"><span style="font-family:times new roman,times,serif;"><input id="text8" name="text8" style="width: 600px;" type="text" /></span></center>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p><br />
+<br />
+<br />
+&nbsp;</p>
+
+<p style="color: rgb(51, 51, 51); font-family: Verdana, Geneva, sans-serif; font-size: 1.1em;">&nbsp;</p>
+</section>
+<!-- close container -->
+<style type="text/css">img { width:180px; height:auto; } label { border-radius:2px; border: 2px solid white; display: block; } label:hover { border: 2px solid #333333; background: #ffffff; opacity:0.9; cursor: pointer; }
+</style>
+<!-- close internal style sheet -->
